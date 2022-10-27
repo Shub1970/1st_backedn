@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+.nav {
+    background-color: aqua;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    margin: 4px;
+    font-size: large;
+}
+
+.right {
+    display: flex;
+    flex-direction: row;
+}
+
+main {
+    background-color: rgb(102, 186, 53);
+    width: 50%;
+    margin: 20px auto 0px auto;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+form {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+}
+
+/* .block {
+    margin: 5px;
+    position: relative;
+    left: 40%;
+} */
