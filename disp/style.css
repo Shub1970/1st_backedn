@@ -36,6 +36,10 @@ form {
     justify-content: center;
 }
 
+input {
+    display: block;
+}
+
 /* .block {
     margin: 5px;
     position: relative;
